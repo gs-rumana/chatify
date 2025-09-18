@@ -6,6 +6,7 @@ A comprehensive, production-ready chat system package for Socket.IO with TypeScr
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-v4.8.1-green.svg)](https://socket.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/Currently%20in%20Development-orange.svg)
 
 ## 🚀 Features
 
