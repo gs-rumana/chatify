@@ -41,14 +41,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "joi": "^17.13.3",
     "socket.io": "^4.8.1",
-    "uuid": "^10.0.0",
-    "joi": "^17.13.3"
+    "socket.io-client": "^4.8.1",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "@types/joi": "^17.2.3",
     "@types/node": "^22.7.9",
     "@types/uuid": "^10.0.0",
-    "@types/joi": "^17.2.3",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
     "eslint": "^9.12.0",
@@ -58,6 +59,9 @@
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",

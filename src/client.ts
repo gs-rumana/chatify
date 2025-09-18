@@ -153,12 +153,12 @@ export class ChatClient {
   }
 
   public on<K extends keyof ChatClientEvents>(event: K, listener: ChatClientEvents[K]): this {
-    this.socket.on(event, listener);
+    this.socket.on(event as any, listener as any);
     return this;
   }
 
   public off<K extends keyof ChatClientEvents>(event: K, listener?: ChatClientEvents[K]): this {
-    this.socket.off(event, listener);
+    this.socket.off(event as any, listener as any);
     return this;
   }
 
