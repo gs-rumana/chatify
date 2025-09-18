@@ -1,6 +1,6 @@
 {
   "name": "@gs-rumana/chatify",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A robust, feature-rich chat system package for Socket.IO with real-time messaging, groups, typing indicators, online status, and message delivery receipts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
